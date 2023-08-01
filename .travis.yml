@@ -24,7 +24,7 @@ script:
   - docker tag udagram-reverseproxy samdana12/reverseproxy:v1
   - docker tag udagram-api-feed samdana12/udagram-api-feed:v1
   - docker tag udagram-api-user samdana12/udagram-api-user:v1
-  - docker tag udagram-frontend samdana12/udagram-frontend:v1
+  - docker tag udagram-frontend samdana12/udagram-frontend:local
 
 after_success:
   ## Push
@@ -32,4 +32,4 @@ after_success:
   - docker push samdana12/reverseproxy:v1
   - docker push samdana12/udagram-api-feed:v1
   - docker push samdana12/udagram-api-user:v1
-  - docker push samdana12/udagram-frontend:v1
+  - docker push samdana12/udagram-frontend:local
