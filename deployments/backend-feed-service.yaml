@@ -5,9 +5,10 @@ metadata:
   labels:
     run: backend-feed
 spec:
+  type: NodePort
   ports:
-  - port: 8080
-    targetPort: 8080
-    protocol: TCP
+    - port: 8080
+      targetPort: 8080
+      protocol: TCP
   selector:
-    run: backend-feed
+    app: backend-feed

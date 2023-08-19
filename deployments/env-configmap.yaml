@@ -3,9 +3,6 @@ kind: ConfigMap
 metadata:
   name: env-configmap
 data:
-  AWS_BUCKET: 
+  AWS_BUCKET: mybucket1200798
+  AWS_PROFILE: default
   AWS_REGION: us-east-1
-  JWT_SECRET:
-  POSTGRES_DB:
-  POSTGRES_HOST:
-  URL: 
