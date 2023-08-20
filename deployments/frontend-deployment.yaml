@@ -17,7 +17,7 @@ spec:
       terminationGracePeriodSeconds: 30
       containers:
         - name: udagram-frontend
-          image: samdana12/udagram-frontend:v7
+          image: samdana12/udagram-frontend:v6
           imagePullPolicy: "Always"
           ports:
             - containerPort: 80 
