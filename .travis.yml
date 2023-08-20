@@ -32,4 +32,4 @@ after_success:
   - docker push samdana12/reverseproxy:v1
   - docker push samdana12/udagram-api-feed:v1
   - docker push samdana12/udagram-api-user:v1
-  - docker push samdana12/udagram-frontend:local
+  - docker push samdana12/udagram-frontend:v9
